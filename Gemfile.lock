@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/jesson/capistrano3-nginx_unicorn.git
+  revision: b53d9a51c4ff65ab7f5361cd96bc2e505eb0fec6
+  specs:
+    capistrano3-nginx_unicorn (0.0.6)
+      capistrano (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -430,6 +437,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-rails
   capistrano-rvm
+  capistrano3-nginx_unicorn!
   capybara
   coveralls
   decent_exposure
