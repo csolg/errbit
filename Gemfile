@@ -115,3 +115,4 @@ gem 'underscore-rails'
 
 ENV['USER_GEMFILE'] ||= './UserGemfile'
 eval_gemfile ENV['USER_GEMFILE'] if File.exist?(ENV['USER_GEMFILE'])
+gem 'unicorn'
